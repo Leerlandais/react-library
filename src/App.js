@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Heading from "./components/Heading";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Heading level={6} text={"Hello There"} />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
