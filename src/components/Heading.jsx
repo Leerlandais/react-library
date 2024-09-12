@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function Heading({ level, className, text, ...rest }) {
-    const Tag = `h${level}`; // Dynamically choose the heading level (h1, h2, etc.)
+    const Tag = `h${level}`;
     return <Tag className={className} {...rest}>{text}</Tag>;
 }
 
