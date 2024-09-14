@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-export default function Paragraph({ className, text, ...rest }) {
+export default function Paragraph({ className, text }) {
     return <p className={className} {...rest}>{text}</p>;
 }
 

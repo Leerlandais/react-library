@@ -14,5 +14,5 @@ Heading.defaultProps = {
 Heading.propTypes = {
     level: PropTypes.oneOf([1, 2, 3, 4, 5, 6]),
     className: PropTypes.string,
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node,
 };
